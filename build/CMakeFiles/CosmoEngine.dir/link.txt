@@ -1,0 +1,3 @@
+D:\IT\winlibs\mingw64\bin\cmake.exe -E rm -f CMakeFiles\CosmoEngine.dir/objects.a
+D:\IT\winlibs\mingw64\bin\ar.exe qc CMakeFiles\CosmoEngine.dir/objects.a @CMakeFiles\CosmoEngine.dir\objects1.rsp
+D:\IT\winlibs\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CosmoEngine.dir/objects.a -Wl,--no-whole-archive -o CosmoEngine.exe -Wl,--out-implib,libCosmoEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CosmoEngine.dir\linkLibs.rsp
