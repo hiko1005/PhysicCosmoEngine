@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\IT\winlibs\mingw64\bin\cmake.exe
+CMAKE_COMMAND = C:\msys64\ucrt64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\IT\winlibs\mingw64\bin\cmake.exe -E rm -f
+RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\IT\PhysicCosmoEngine
+CMAKE_SOURCE_DIR = D:\Study\justStudy\Simu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\IT\PhysicCosmoEngine\build
+CMAKE_BINARY_DIR = D:\Study\justStudy\Simu\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/CosmoEngine.dir/clean
 CMakeFiles/CosmoEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CosmoEngine.dir\build.make CMakeFiles/CosmoEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CosmoEngine.dir\build.make CMakeFiles/CosmoEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\IT\PhysicCosmoEngine\build\CMakeFiles --progress-num=1,2,3,4 "Built target CosmoEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Study\justStudy\Simu\build\CMakeFiles --progress-num=1,2,3,4 "Built target CosmoEngine"
 .PHONY : CMakeFiles/CosmoEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CosmoEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IT\PhysicCosmoEngine\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\justStudy\Simu\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CosmoEngine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\IT\PhysicCosmoEngine\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\justStudy\Simu\build\CMakeFiles 0
 .PHONY : CMakeFiles/CosmoEngine.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ CosmoEngine: CMakeFiles/CosmoEngine.dir/rule
 # codegen rule for target.
 CMakeFiles/CosmoEngine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CosmoEngine.dir\build.make CMakeFiles/CosmoEngine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\IT\PhysicCosmoEngine\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target CosmoEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Study\justStudy\Simu\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target CosmoEngine"
 .PHONY : CMakeFiles/CosmoEngine.dir/codegen
 
 # clean rule for target.

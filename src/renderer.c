@@ -1,12 +1,17 @@
 #include <SDL2/SDL.h>
 #include <stdio.h>
-#include "lib/renderer/renderer.h"
+#include "renderer/renderer.h"
+
+const int SCREEN_WIDTH = 1920;
+const int SCREEN_HEIGHT = 1080;
+const char* title = "CosmoEngine";
 
 int rendererInit() {
-    if (SDL_INIT_EVERYTHING != 0) {
+    if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
-        return 1;
+        return 0;
     }
+    return 1;
 }
 
 int createWindow(SDL_Window *window) {
@@ -15,17 +20,17 @@ int createWindow(SDL_Window *window) {
     if (window == NULL) {
         printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
         SDL_Quit();
-        return -1;
+        return 0;
     }
 }
 
 int createRenderer(SDL_Renderer* renderer, SDL_Window* window) {
-    renderer = SDL_CreateRenderer(window, -1, NULL);
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
     if (renderer == NULL) {
         printf("Renderer could not be created! SDL_Error: %s\n", SDL_GetError());
         SDL_DestroyWindow(window);
         SDL_Quit();
-        return -1;
+        return 0;
     }
 }

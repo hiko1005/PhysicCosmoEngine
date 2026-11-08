@@ -1,15 +1,21 @@
 #include <stdio.h>
-#include "../lib/physic/physic.h"
-#include "../lib/renderer/renderer.h"
+#include <physic/physic.h>
+#include <renderer/renderer.h>
 
-int main() {
+int main(int argc, char* argv[]) {
+    if (rendererInit() == 0) {
+        return 1;
+    }
     SDL_Window* window;
+    if (createWindow(window) == 0) {
+        return 1;
+    }
     SDL_Renderer* renderer;
-    if (createRenderer(renderer, window) == -1) {
+    if (createRenderer(renderer, window) == 0) {
         return 1;
     }
 
-
+    return 0;
 }
 
 // SpaceObject Earth;

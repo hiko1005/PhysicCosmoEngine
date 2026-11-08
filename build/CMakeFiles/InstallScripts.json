@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/IT/PhysicCosmoEngine/build/cmake_install.cmake"
+		"D:/Study/justStudy/Simu/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

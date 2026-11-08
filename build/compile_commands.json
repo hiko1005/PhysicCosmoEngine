@@ -1,20 +1,20 @@
 [
 {
-  "directory": "D:/IT/PhysicCosmoEngine/build",
-  "command": "D:\\IT\\winlibs\\mingw64\\bin\\gcc.exe  @CMakeFiles\\CosmoEngine.dir\\includes_C.rsp -g -std=gnu17 -o CMakeFiles\\CosmoEngine.dir\\src\\main.c.obj -c D:\\IT\\PhysicCosmoEngine\\src\\main.c",
-  "file": "D:/IT/PhysicCosmoEngine/src/main.c",
+  "directory": "D:/Study/justStudy/Simu/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\CosmoEngine.dir\\includes_C.rsp -g -std=gnu17 -o CMakeFiles\\CosmoEngine.dir\\src\\main.c.obj -c D:\\Study\\justStudy\\Simu\\src\\main.c",
+  "file": "D:/Study/justStudy/Simu/src/main.c",
   "output": "CMakeFiles/CosmoEngine.dir/src/main.c.obj"
 },
 {
-  "directory": "D:/IT/PhysicCosmoEngine/build",
-  "command": "D:\\IT\\winlibs\\mingw64\\bin\\gcc.exe  @CMakeFiles\\CosmoEngine.dir\\includes_C.rsp -g -std=gnu17 -o CMakeFiles\\CosmoEngine.dir\\src\\physic.c.obj -c D:\\IT\\PhysicCosmoEngine\\src\\physic.c",
-  "file": "D:/IT/PhysicCosmoEngine/src/physic.c",
+  "directory": "D:/Study/justStudy/Simu/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\CosmoEngine.dir\\includes_C.rsp -g -std=gnu17 -o CMakeFiles\\CosmoEngine.dir\\src\\physic.c.obj -c D:\\Study\\justStudy\\Simu\\src\\physic.c",
+  "file": "D:/Study/justStudy/Simu/src/physic.c",
   "output": "CMakeFiles/CosmoEngine.dir/src/physic.c.obj"
 },
 {
-  "directory": "D:/IT/PhysicCosmoEngine/build",
-  "command": "D:\\IT\\winlibs\\mingw64\\bin\\gcc.exe  @CMakeFiles\\CosmoEngine.dir\\includes_C.rsp -g -std=gnu17 -o CMakeFiles\\CosmoEngine.dir\\src\\renderer.c.obj -c D:\\IT\\PhysicCosmoEngine\\src\\renderer.c",
-  "file": "D:/IT/PhysicCosmoEngine/src/renderer.c",
+  "directory": "D:/Study/justStudy/Simu/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\CosmoEngine.dir\\includes_C.rsp -g -std=gnu17 -o CMakeFiles\\CosmoEngine.dir\\src\\renderer.c.obj -c D:\\Study\\justStudy\\Simu\\src\\renderer.c",
+  "file": "D:/Study/justStudy/Simu/src/renderer.c",
   "output": "CMakeFiles/CosmoEngine.dir/src/renderer.c.obj"
 }
 ]

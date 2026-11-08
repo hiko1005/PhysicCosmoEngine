@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/IT/PhysicCosmoEngine/src/main.c" "CMakeFiles/CosmoEngine.dir/src/main.c.obj" "gcc" "CMakeFiles/CosmoEngine.dir/src/main.c.obj.d"
-  "D:/IT/PhysicCosmoEngine/src/physic.c" "CMakeFiles/CosmoEngine.dir/src/physic.c.obj" "gcc" "CMakeFiles/CosmoEngine.dir/src/physic.c.obj.d"
-  "D:/IT/PhysicCosmoEngine/src/renderer.c" "CMakeFiles/CosmoEngine.dir/src/renderer.c.obj" "gcc" "CMakeFiles/CosmoEngine.dir/src/renderer.c.obj.d"
+  "D:/Study/justStudy/Simu/src/main.c" "CMakeFiles/CosmoEngine.dir/src/main.c.obj" "gcc" "CMakeFiles/CosmoEngine.dir/src/main.c.obj.d"
+  "D:/Study/justStudy/Simu/src/physic.c" "CMakeFiles/CosmoEngine.dir/src/physic.c.obj" "gcc" "CMakeFiles/CosmoEngine.dir/src/physic.c.obj.d"
+  "D:/Study/justStudy/Simu/src/renderer.c" "CMakeFiles/CosmoEngine.dir/src/renderer.c.obj" "gcc" "CMakeFiles/CosmoEngine.dir/src/renderer.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

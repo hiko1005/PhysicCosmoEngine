@@ -1,1 +1,1 @@
--ID:/IT/PhysicCosmoEngine/lib
+-ID:/Study/justStudy/Simu/lib -I"D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/include" -isystem "D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/include/SDL2"

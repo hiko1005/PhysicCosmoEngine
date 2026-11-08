@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\IT\winlibs\mingw64\bin\cmake.exe
+CMAKE_COMMAND = C:\msys64\ucrt64\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\IT\winlibs\mingw64\bin\cmake.exe -E rm -f
+RM = C:\msys64\ucrt64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\IT\PhysicCosmoEngine
+CMAKE_SOURCE_DIR = D:\Study\justStudy\Simu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\IT\PhysicCosmoEngine\build
+CMAKE_BINARY_DIR = D:\Study\justStudy\Simu\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CosmoEngine.dir/depend.make
@@ -73,48 +73,48 @@ CMakeFiles/CosmoEngine.dir/codegen:
 
 CMakeFiles/CosmoEngine.dir/src/main.c.obj: CMakeFiles/CosmoEngine.dir/flags.make
 CMakeFiles/CosmoEngine.dir/src/main.c.obj: CMakeFiles/CosmoEngine.dir/includes_C.rsp
-CMakeFiles/CosmoEngine.dir/src/main.c.obj: D:/IT/PhysicCosmoEngine/src/main.c
+CMakeFiles/CosmoEngine.dir/src/main.c.obj: D:/Study/justStudy/Simu/src/main.c
 CMakeFiles/CosmoEngine.dir/src/main.c.obj: CMakeFiles/CosmoEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\IT\PhysicCosmoEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CosmoEngine.dir/src/main.c.obj"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CosmoEngine.dir/src/main.c.obj -MF CMakeFiles\CosmoEngine.dir\src\main.c.obj.d -o CMakeFiles\CosmoEngine.dir\src\main.c.obj -c D:\IT\PhysicCosmoEngine\src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Study\justStudy\Simu\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CosmoEngine.dir/src/main.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CosmoEngine.dir/src/main.c.obj -MF CMakeFiles\CosmoEngine.dir\src\main.c.obj.d -o CMakeFiles\CosmoEngine.dir\src\main.c.obj -c D:\Study\justStudy\Simu\src\main.c
 
 CMakeFiles/CosmoEngine.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CosmoEngine.dir/src/main.c.i"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\IT\PhysicCosmoEngine\src\main.c > CMakeFiles\CosmoEngine.dir\src\main.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\justStudy\Simu\src\main.c > CMakeFiles\CosmoEngine.dir\src\main.c.i
 
 CMakeFiles/CosmoEngine.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CosmoEngine.dir/src/main.c.s"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\IT\PhysicCosmoEngine\src\main.c -o CMakeFiles\CosmoEngine.dir\src\main.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\justStudy\Simu\src\main.c -o CMakeFiles\CosmoEngine.dir\src\main.c.s
 
 CMakeFiles/CosmoEngine.dir/src/physic.c.obj: CMakeFiles/CosmoEngine.dir/flags.make
 CMakeFiles/CosmoEngine.dir/src/physic.c.obj: CMakeFiles/CosmoEngine.dir/includes_C.rsp
-CMakeFiles/CosmoEngine.dir/src/physic.c.obj: D:/IT/PhysicCosmoEngine/src/physic.c
+CMakeFiles/CosmoEngine.dir/src/physic.c.obj: D:/Study/justStudy/Simu/src/physic.c
 CMakeFiles/CosmoEngine.dir/src/physic.c.obj: CMakeFiles/CosmoEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\IT\PhysicCosmoEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CosmoEngine.dir/src/physic.c.obj"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CosmoEngine.dir/src/physic.c.obj -MF CMakeFiles\CosmoEngine.dir\src\physic.c.obj.d -o CMakeFiles\CosmoEngine.dir\src\physic.c.obj -c D:\IT\PhysicCosmoEngine\src\physic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Study\justStudy\Simu\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CosmoEngine.dir/src/physic.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CosmoEngine.dir/src/physic.c.obj -MF CMakeFiles\CosmoEngine.dir\src\physic.c.obj.d -o CMakeFiles\CosmoEngine.dir\src\physic.c.obj -c D:\Study\justStudy\Simu\src\physic.c
 
 CMakeFiles/CosmoEngine.dir/src/physic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CosmoEngine.dir/src/physic.c.i"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\IT\PhysicCosmoEngine\src\physic.c > CMakeFiles\CosmoEngine.dir\src\physic.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\justStudy\Simu\src\physic.c > CMakeFiles\CosmoEngine.dir\src\physic.c.i
 
 CMakeFiles/CosmoEngine.dir/src/physic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CosmoEngine.dir/src/physic.c.s"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\IT\PhysicCosmoEngine\src\physic.c -o CMakeFiles\CosmoEngine.dir\src\physic.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\justStudy\Simu\src\physic.c -o CMakeFiles\CosmoEngine.dir\src\physic.c.s
 
 CMakeFiles/CosmoEngine.dir/src/renderer.c.obj: CMakeFiles/CosmoEngine.dir/flags.make
 CMakeFiles/CosmoEngine.dir/src/renderer.c.obj: CMakeFiles/CosmoEngine.dir/includes_C.rsp
-CMakeFiles/CosmoEngine.dir/src/renderer.c.obj: D:/IT/PhysicCosmoEngine/src/renderer.c
+CMakeFiles/CosmoEngine.dir/src/renderer.c.obj: D:/Study/justStudy/Simu/src/renderer.c
 CMakeFiles/CosmoEngine.dir/src/renderer.c.obj: CMakeFiles/CosmoEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\IT\PhysicCosmoEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CosmoEngine.dir/src/renderer.c.obj"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CosmoEngine.dir/src/renderer.c.obj -MF CMakeFiles\CosmoEngine.dir\src\renderer.c.obj.d -o CMakeFiles\CosmoEngine.dir\src\renderer.c.obj -c D:\IT\PhysicCosmoEngine\src\renderer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Study\justStudy\Simu\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CosmoEngine.dir/src/renderer.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CosmoEngine.dir/src/renderer.c.obj -MF CMakeFiles\CosmoEngine.dir\src\renderer.c.obj.d -o CMakeFiles\CosmoEngine.dir\src\renderer.c.obj -c D:\Study\justStudy\Simu\src\renderer.c
 
 CMakeFiles/CosmoEngine.dir/src/renderer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CosmoEngine.dir/src/renderer.c.i"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\IT\PhysicCosmoEngine\src\renderer.c > CMakeFiles\CosmoEngine.dir\src\renderer.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Study\justStudy\Simu\src\renderer.c > CMakeFiles\CosmoEngine.dir\src\renderer.c.i
 
 CMakeFiles/CosmoEngine.dir/src/renderer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CosmoEngine.dir/src/renderer.c.s"
-	D:\IT\winlibs\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\IT\PhysicCosmoEngine\src\renderer.c -o CMakeFiles\CosmoEngine.dir\src\renderer.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Study\justStudy\Simu\src\renderer.c -o CMakeFiles\CosmoEngine.dir\src\renderer.c.s
 
 # Object files for target CosmoEngine
 CosmoEngine_OBJECTS = \
@@ -129,10 +129,12 @@ CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/src/main.c.obj
 CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/src/physic.c.obj
 CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/src/renderer.c.obj
 CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/build.make
+CosmoEngine.exe: D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/lib/libSDL2main.a
+CosmoEngine.exe: D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/lib/libSDL2.dll.a
 CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/linkLibs.rsp
 CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/objects1.rsp
 CosmoEngine.exe: CMakeFiles/CosmoEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\IT\PhysicCosmoEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable CosmoEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Study\justStudy\Simu\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable CosmoEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CosmoEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +146,6 @@ CMakeFiles/CosmoEngine.dir/clean:
 .PHONY : CMakeFiles/CosmoEngine.dir/clean
 
 CMakeFiles/CosmoEngine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\IT\PhysicCosmoEngine D:\IT\PhysicCosmoEngine D:\IT\PhysicCosmoEngine\build D:\IT\PhysicCosmoEngine\build D:\IT\PhysicCosmoEngine\build\CMakeFiles\CosmoEngine.dir\DependInfo.cmake "--color=$(COLOR)" CosmoEngine
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Study\justStudy\Simu D:\Study\justStudy\Simu D:\Study\justStudy\Simu\build D:\Study\justStudy\Simu\build D:\Study\justStudy\Simu\build\CMakeFiles\CosmoEngine.dir\DependInfo.cmake "--color=$(COLOR)" CosmoEngine
 .PHONY : CMakeFiles/CosmoEngine.dir/depend
 

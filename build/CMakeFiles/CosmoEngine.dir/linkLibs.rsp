@@ -1,1 +1,1 @@
-  -LD:/IT/PhysicCosmoEngine/SDL2::SDL2  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -L"D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/lib"  "D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/lib/libSDL2main.a" "D:/Study/justStudy/Simu/external/SDL2-2.30.11/x86_64-w64-mingw32/lib/libSDL2.dll.a" -mwindows -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

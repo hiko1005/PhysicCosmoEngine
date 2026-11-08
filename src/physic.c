@@ -1,5 +1,5 @@
 #include <math.h>
-#include "../lib/physic/physic.h"
+#include "physic/physic.h"
 
 double getVectorModule(Vector2 vector) {
     return sqrt(vector.x*vector.x+vector.y*vector.y);

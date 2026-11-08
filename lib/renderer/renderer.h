@@ -1,15 +1,13 @@
 #ifndef RENDERER_C
 #define RENDERER_C
 
-#include "lib/renderer/renderer.h"
-#include <stdio.h>
 #include <SDL2/SDL.h>
 
-const int SCREEN_WIDTH = 1000;
-const int SCREEN_HEIGHT = 1000;
-const char *title = "CosmoEngine";
+extern const int SCREEN_WIDTH;
+extern const int SCREEN_HEIGHT;
+extern const char* title;
 
-int renderInit();
+int rendererInit();
 
 int createWindow(SDL_Window *window);
 

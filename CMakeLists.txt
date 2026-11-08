@@ -16,9 +16,11 @@ add_executable(CosmoEngine
 )
 
 target_include_directories(CosmoEngine PRIVATE
-${PROJECT_SOURCE_DIR}/lib
+    ${PROJECT_SOURCE_DIR}/lib
+    ${PROJECT_SOURCE_DIR}/external/SDL2-2.30.11/x86_64-w64-mingw32/include
 )
 
-target_link_directories(CosmoEngine PRIVATE
+target_link_libraries(CosmoEngine PRIVATE
+    SDL2::SDL2main
     SDL2::SDL2
 )
